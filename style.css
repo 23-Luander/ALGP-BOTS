@@ -1,10 +1,16 @@
 header {
 	background: #BBBBBB;
-  padding: 40px 0;
+  padding: 80px 0;
   display: flex;
 }
-.cabecalho-imagem{
-  width: 10%;
+.cabecalho-texto {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #FF7F00;
+  font-size: 35px;
+  line-height: 110px;
+  margin-left: 0;
 }
 
 body {
