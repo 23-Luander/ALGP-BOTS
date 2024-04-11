@@ -1,0 +1,33 @@
+header {
+	background: #262626;
+  padding: 8px 0;
+  padding-left: 20px;
+  width: 100%;
+  display: flex;
+}
+
+body {
+  background: #181818;
+  display: flex;
+
+}
+
+li {
+  left: 20px;
+}
+
+h2 {
+  left: 300px;
+}
+
+/* Images */
+.headerImage{
+  width: 100%;
+}
+
+.leftCornerIcon{
+  border-left: 100px;
+  width: 100px;
+  height: 100px;
+}
+
