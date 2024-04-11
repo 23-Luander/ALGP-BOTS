@@ -1,18 +1,33 @@
 header {
-	background: #BBBBBB;
-  padding: 80px 0;
+	background: #262626;
+  padding: 8px 0;
+  padding-left: 20px;
+  width: 100%;
   display: flex;
-}
-.cabecalho-texto {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  color: #FF7F00;
-  font-size: 35px;
-  line-height: 110px;
-  margin-left: 0;
 }
 
 body {
-    background-color: #000000;
+  background: #181818;
+  display: flex;
+
 }
+
+li {
+  left: 20px;
+}
+
+h2 {
+  left: 300px;
+}
+
+/* Images */
+.headerImage{
+  width: 100%;
+}
+
+.leftCornerIcon{
+  border-left: 100px;
+  width: 100px;
+  height: 100px;
+}
+
