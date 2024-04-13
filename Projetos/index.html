@@ -6,39 +6,13 @@ li<!DOCTYPE html>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>apresentationPage</title>
 
-
-    <header class="header">
-        <image class="leftCornerIcon" src="testImage1.png"></image>
-    
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target=_blank title="Voltar à Página Inicial">
-            Home
-        </a>
-    
-        <div style="position: absolute; right: 200; top: -10;">
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target=_blank style="position: absolute; left: 10%; transform: translateX(-50%); top: 40px;">
-                Sobre Nós
-            </a>
-        </div>
-    
-        <header class="header">
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target=_blank style="position: absolute; left: 50%; transform: translateX(-50%); top: 40px;">
-                Projetos
-            </a>
-        </header>
-     
-
-
-
-
     <!-- CSS -->
     <style>
 
     header {
 	    background: #262626;
-        padding: 8px 0;
-        padding-left: 20px;
-        width: 100%;
-        height: 100px;
+        width: 1920px;
+        height: 120px;
         display: flex;
     }
 
@@ -46,38 +20,103 @@ li<!DOCTYPE html>
         background: #181818;
         display: flex;
     }
-
-    a {
+    a.h1 {                     /* "Projetos" */
         position: absolute;
-        left: 180px;
-        top: 40px;
+        left: 800px;
+        top: 30px;
         color: #FF7F00;
-        font-size: 30px;
+        font-size: 40px;
+        font-family: fantasy;   /* fonte q eu to usando pro site todo */
     }
+    
+    a.h2 {                    /* "Sobre Nós" */
+    position:relative;
+    left: 1500px;
+    top: 35px;
+    color: #FF7F00 ;
+    font-size: 30px;
+    font-family: fantasy;
+    font-weight: lighter;
+}
+    a.h3 {                   /* "Home" */
+    position: relative;
+    right: -30px;
+    top: 35px;
+    color: #FF7F00;
+    font-size: 30px;
+    font-family: fantasy;
+    font-weight: lighter;  /* "lighter" deixa a fonte mais fina */
+}
 
     /* Images */
-    .headerImage{
-        width: 100%;
-    }
+    /*.headerImage{
+        width: 100%;     Não usando no momento
+    */ 
     .leftCornerIcon{
-        border-left: 100px;
+        position: absolute;
+        left: 28px;
+        top: 17.5px;
+        width: 100px;
+        height: 100px;
+    }
+    .rightCornerIcon{
+
+        -webkit-transform: scaleX(-1); /*esses comandos são pra inverter a imagem*/
+        transform: scaleX(-1);
+
+        position: absolute;
+        right: 30px;
+        top: 17.5px;
         width: 100px;
         height: 100px;
     }
 
+    body {
+    height: 200vh; /* Increase the value according to the desired height for the page */
+    overflow-y: auto; /* Adds the vertical scrollbar */
+}
+
     </style>
 
 <!-- Linkage -->
+
+<header class="header">
+    <image class="leftCornerIcon" src="testImage1.png"></image>
+    <image class="rightCornerIcon" src="testImage1.png"></image>
+    <a class= "h1" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target=_blank title="Projetos"> Projetos </a>
+    <a class= "h2" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> Sobre Nós</a>
+    <a class= "h3" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> Home </a>  
+    <a href="#section1">Go to Section 1</a>
+
+<!--... -->
+
+<div id="section1">Section 1</div>      
+ </header>
+
 </head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <body>
      
-   <iframe style="position: absolute; bottom: 400; left: 150; width: 25%; height: 25%;" src="https://www.youtube.com/embed/WXwgZL4zx9o?si=vWSEtccJBTHFl_vT" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-   <div style="position: absolute; bottom: 350; left: 300; font-size: 30px; color: #FF7F00;">Abacaxi</div>
-</body>
-
-</body>
+    <iframe style="position: absolute; bottom: 400; left: 150; width: 25%; height: 25%;" src="https://www.youtube.com/embed/WXwgZL4zx9o?si=vWSEtccJBTHFl_vT" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ 
+    <div style="position: absolute; bottom: 350; left: 300; font-size: 30px; color: #FF7F00;">Abacaxi</div>
+ </body>
+ 
+ </body>
 
 
 
