@@ -1,0 +1,118 @@
+li<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>apresentationPage</title>
+
+    <!-- CSS -->
+    <style>
+
+    header {
+	    background: #262626;
+        width: 1920px;
+        height: 120px;
+        display: flex;
+    }
+
+    body {
+        background: #181818;
+        display: flex;
+    }
+    a.h1 {                     /* "Projetos" */
+        position: absolute;
+        left: 800px;
+        top: 30px;
+        color: #FF7F00;
+        font-size: 40px;
+        font-family: fantasy;   /* fonte q eu to usando pro site todo */
+    }
+    
+    a.h2 {                    /* "Sobre Nós" */
+    position:relative;
+    left: 1500px;
+    top: 35px;
+    color: #FF7F00 ;
+    font-size: 30px;
+    font-family: fantasy;
+    font-weight: lighter;
+}
+    a.h3 {                   /* "Home" */
+    position: relative;
+    right: -30px;
+    top: 35px;
+    color: #FF7F00;
+    font-size: 30px;
+    font-family: fantasy;
+    font-weight: lighter;  /* "lighter" deixa a fonte mais fina */
+}
+
+    /* Images */
+    /*.headerImage{
+        width: 100%;     Não usando no momento
+    */ 
+    .leftCornerIcon{
+        position: absolute;
+        left: 28px;
+        top: 17.5px;
+        width: 100px;
+        height: 100px;
+    }
+    .rightCornerIcon{
+
+        -webkit-transform: scaleX(-1); /*esses comandos são pra inverter a imagem*/
+        transform: scaleX(-1);
+
+        position: absolute;
+        right: 30px;
+        top: 17.5px;
+        width: 100px;
+        height: 100px;
+    }
+
+    body {
+    height: 200vh; /* Increase the value according to the desired height for the page */
+    overflow-y: auto; /* Adds the vertical scrollbar */
+}
+
+    </style>
+
+<!-- Linkage -->
+
+<header class="header">
+    <image class="leftCornerIcon" src="testImage1.png"></image>
+    <image class="rightCornerIcon" src="testImage1.png"></image>
+    <a class= "h1" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target=_blank title="Projetos"> Projetos </a>
+    <a class= "h2" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> Sobre Nós</a>
+    <a class= "h3" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> Home </a>  
+    <a href="#section1"></a>
+
+<!--... -->
+
+<div id="section1"></div>      
+ </header>
+
+</head>
+
+<body>
+     
+    <iframe style="position: absolute; bottom: 400; left: 100; width: 25%; height: 25%;" src="https://www.youtube.com/embed/WXwgZL4zx9o?si=vWSEtccJBTHFl_vT" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ 
+    <div style="position: absolute; bottom: 350; left: 265; font-size: 30px; color: #FF7F00;">Abacaxi</div>
+
+    <iframe style="position: absolute; bottom: 400; left: 650; width: 25%; height: 25%;" src="https://www.youtube.com/embed/WXwgZL4zx9o?si=vWSEtccJBTHFl_vT" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ 
+    <div style="position: absolute; bottom: 350; left: 845; font-size: 30px; color: #FF7F00;">Melao</div>
+
+    <iframe style="position: absolute; bottom: 400; left: 1200; width: 25%; height: 25%;" src="https://www.youtube.com/embed/WXwgZL4zx9o?si=vWSEtccJBTHFl_vT" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ 
+    <div style="position: absolute; bottom: 350; left: 1390; font-size: 30px; color: #FF7F00;">Laranja</div>
+    
+    
+ </body>
+
+
+
+
+</html>
