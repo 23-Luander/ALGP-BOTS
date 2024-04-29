@@ -62,9 +62,12 @@ body {
    justify-content: center;
 }
 
-.textorodape{
-   
+.textorodape{ 
    text-align: center;
+}
+
+.destaqueprojetos{
+   font-size: 30px;
 }
 
 .rodape {
