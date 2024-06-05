@@ -1,0 +1,113 @@
+header {
+	background: #262626;
+    width: 1920px;
+    height: 120px;
+    display: flex;
+    }
+
+    body {
+    background: #181818;
+    display: flex;
+    }
+    a.h1 {                  /* "Projetos" */
+    position: absolute;
+    left: 45.9%;
+    top: 5%;
+    color: #FF7F00;
+    font-size: 40px;
+    font-family: fantasy;   /* fonte q eu to usando pro site todo */
+    }
+    
+    a.h2 {                    /* "Fundadores" */
+    position:relative;
+    left: 81.5%;
+    top: 34%;
+    color: #FF7F00 ;
+    font-size: 30px;
+    font-family: fantasy;
+    font-weight: lighter;
+}
+    a.h3 {                   /* "Home" */
+    position: relative;
+    right: 1%;
+    top: 34%;
+    color: #FF7F00;
+    font-size: 30px;
+    font-family: fantasy;
+    font-weight: lighter;  /* "lighter" deixa a fonte mais fina */
+}
+
+p {                       /* "Texto do meio da página" */
+    position: absolute;
+    left: 32.4%;
+    top: 150px;
+    color: #FF7F00;
+    font-size: 30px;
+    font-family: Georgia, serif;
+    font-weight: lighter;
+    text-align: center;
+}
+
+p.h4 {                      /* "segundo texto do meio da pagina" */
+    position: flex;
+    left: 34.7%;
+    top: 50%;
+    align-items: center;
+    color: #FF7F00;
+    font-size: 30px;
+    font-family: Georgia, serif;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.rainbowText {
+    position: absolute;
+    left: 585px;
+    top: 59.7%;
+    font-weight: bold;
+    font-family: Georgia, serif;
+    font-size: 23px;
+    background-image: linear-gradient(to right, red, orange, yellow, green, cyan, lightblue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.creator {
+    color: white;
+    position: relative;
+    left: 1240px;
+    top: 780px;
+    font-weight: lighter;
+    font-family: Georgia, serif;
+    font-size: 10px;
+
+}
+
+    /* Images */
+    /*.headerImage{
+        width: 100%;     Não usando no momento
+    */ 
+    .leftCornerIcon{
+        position: absolute;
+        left: 28px;
+        top: 17.5px;
+        width: 100px;
+        height: 100px;
+    }
+    .rightCornerIcon{
+
+        -webkit-transform: scaleX(-1); /*esses comandos são pra inverter a imagem*/
+        transform: scaleX(-1);  /*esses comandos são pra inverter a imagem*/
+
+        position: absolute;
+        right: 30px;
+        top: 17.5px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .gifTest{
+        position: absolute;
+        width: 10%;
+        height: 20%;
+    }
