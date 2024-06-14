@@ -12,12 +12,17 @@ body {
    color: #FF8601;
    display: flex;
    align-items: center;
-   padding: 20px;
+   padding: 0.5%;
+}
+
+.navegador {
+   display: inline-flex;
+   
 }
 
 .navegadorBotoes {
-   display: inline-block;
-   margin: 0 150px;
+   display: inline-flex;
+   margin: 0.5% 100%;
    font-size: 20px;
    font-weight: lighter;
    font-family: fantasy;
