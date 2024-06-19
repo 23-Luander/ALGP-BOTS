@@ -1,61 +1,8 @@
-/* styles.css */
-
-header {
-  background: #262626;
-  width: 100%;
-  height: 6%;
-  display: flex;
-}
+@import url(Header.css);
 
 body {
   background: #181818;
   display: flex;
   height: 200%;
   overflow-y: auto;
-}
-
-a.h1 { /* "Projetos" */
-  position: absolute;
-  left: 46%;
-  top: 3%;
-  color: #FF7F00;
-  font-size: 300%;
-  font-family: fantasy;
-}
-
-a.h2 { /* "Sobre Nós" */
-  position: relative;
-  left: 80%;
-  top: 25%;
-  color: #FF7F00;
-  font-size: 250%;
-  font-family: fantasy;
-}
-
-a.h3 { /* "Home" */
-  position: relative;
-  left: -1%;
-  top: 25%;
-  color: #FF7F00;
-  font-size: 250%;
-  font-family: fantasy;
-  font-weight: lighter;
-}
-
-.leftCornerIcon {
-  position: absolute;
-  left: 0.91%;
-  top: 1%;
-  width: 5%;
-  height: 12%;
-}
-
-.rightCornerIcon {
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-  position: absolute;
-  right: 0.44%;
-  top: 0.8%;
-  width: 5%;
-  height: 12.1%;
 }
