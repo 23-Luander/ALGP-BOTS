@@ -1,8 +1,1 @@
-@import url(Header.css);
 
-body {
-  background: #181818;
-  display: flex;
-  height: 200%;
-  overflow-y: auto;
-}
