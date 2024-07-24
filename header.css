@@ -21,16 +21,19 @@ body {
 }
 
 .home {
+    font-size: 100%;
     padding: 2% 10%;
     color: var(--cor-texto);
 }
 
-.projetos {    
+.projetos {
+    font-size: 100%;    
     padding: 2% 10%;
     color: var(--cor-texto);
 }
 
-.fundadores {   
+.fundadores {
+    font-size: 100%;  
     padding: 2% 10%;
     color: var(--cor-texto);
 }
